@@ -25,7 +25,7 @@ import News from "./components/News";
 import AdminLogin from "./Adminpanel/AdminLogin";
 import Ebook from "./components/Ebook";
 import Register from "./components/Register";
-import Using from "./components/using";
+import UsingLibrary from "./components/using";
 import Space from "./components/Space";
 import Course from "./components/course";
 import UserFeedback from "./components/Feedback";
@@ -60,7 +60,7 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/ebook" element={<Ebook />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/using" element={<Using />} />
+        <Route path="/UsingLibrary" element={<Using />} />
         <Route path="/space" element={<Space />} />
         <Route path="/course" element={<Course />} />
         <Route path="/userfeedback" element={<UserFeedback />} />
